@@ -1,0 +1,28 @@
+{
+    "image": "C:\\Users\\pares\\OneDrive\\Documents\\vs code\\are-u-cat\\dataset\\test_set\\dogs\\dog.1753.jpg",
+    "predictions": {
+        "mobilenet": {
+            "label": "Dog",
+            "confidence": 0.999754786491394,
+            "raw_score": 0.999754786491394
+        },
+        "resnet50": {
+            "label": "Cat",
+            "confidence": 0.531841516494751,
+            "raw_score": 0.4681585133075714
+        },
+        "simple_cnn": {
+            "label": "Dog",
+            "confidence": 0.5241125226020813,
+            "raw_score": 0.5241125226020813
+        },
+        "vgg16": {
+            "label": "Dog",
+            "confidence": 0.8557547330856323,
+            "raw_score": 0.8557547330856323
+        }
+    },
+    "best_model": "mobilenet",
+    "best_label": "Dog",
+    "best_confidence": 0.999754786491394
+}
